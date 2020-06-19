@@ -1,0 +1,31 @@
+
+html {
+  height: 100%;
+  background-image: url(x2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+    opacity: 0.5;
+}
+#header {
+    //background-color: blueviolet;
+    position: fixed;
+    margin-bottom: 100px;
+    
+}
+
+#form {
+    margin-top: 100px;
+}
+
+#header {
+    
+}
+
+#colo {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 15px;
+}

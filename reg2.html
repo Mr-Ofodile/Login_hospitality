@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="w3.css">
+        <link rel="stylesheet" href="logg.css">
+        <script src="logg.js"></script>
+        <title>User Registration page</title>
+    </head>
+    <body>
+        <div class="w3-bar w3-blue" id="header">
+        <h1>Bridge care consulting</h1>
+    </div>
+      
+        <div class="w3-card w3-display-middle w3-card-2">
+            
+      <form name="myForm">
+         <label for="fname">First name:</label><br>
+         <input type="text" id="fname" name="fname"><br>
+      
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname"><br>
+    
+          <label for="age">Age:</label><br>
+      <input type="number" id="age" name="age"><br>
+      <label for="profession">Proffession:</label>
+        <select id="cars" name="cars">
+          <option value="doctor">Doctor</option>
+          <option value="nurse">Nurse</option>
+          <option value="admin">Admin</option>
+          <option value="clerks">Clerks</option>
+        </select>
+              <br>  <br>
+          <div style="text-align:center ">
+        <input  type="button" id="link" value="Submit" onclick="validateForm()">
+      <!--<a href="registrationsuccess.html" class="w3-button w3-khaki">Submit</a>-->
+          </div>
+         </form>
+        </div>
+    </body>
+</html>
